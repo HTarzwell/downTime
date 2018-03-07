@@ -1,4 +1,4 @@
-<% project_name = 'rails-api-template' %>
+<% project_name = 'down_time' %>
 
 default: &default
   adapter: postgresql
