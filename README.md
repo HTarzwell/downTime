@@ -70,3 +70,12 @@ scratch.  It was not a challenge once I realized that I had tried to run my
 development tests (which should have been locally hosted) from my production app
 on Heroku.  After that, things progressed very smoothly with building the initial
 client sign-ups and sign-ins.
+
+The change password function was much less smooth.  I had to leave it for the time
+being and move along.
+
+### Outstanding Issues for Day Two:
+
+-Change Password client web app function not working
+
+## Day Three
