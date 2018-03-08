@@ -19,7 +19,9 @@ CSS3
 JS
 Handlebars?
 
-# Day One
+# The Process
+
+## Day One
 
 This was the day I learned how to finally move files around and rename them in
 the terminal.  I was very proud.  I may never go back to GUI!
@@ -34,3 +36,22 @@ amount of time the user spends away from their phone and 2) a problem with some
 curl requests that turned out to be due to the unconstructed database and not
 running the rails server.  Correcting these issues made it simpler to catch
 up and figure out what needed to be done next!
+
+I spruced up, added descriptions to, and pinned the repos, and then changed the
+Application controller inheritance to OpenRead in my downtime_instances controller.
+
+Curls on the auth file all cleared.  Did not start curling resources yet.
+
+### Outstanding Issues for Day One:
+
+-No SQL work
+-Heroku knowledge is shaky; downtime isn't showing as one of my account apps
+-Client is being deployed to my .io as /downtime/client because of folder
+shenanigans
+
+## Day Two
+
+A snow day!  But no rest for the wicked, nor for the developers.
+
+Discovered that I needed to be testing my resources on curl BEFORE I changed the
+Applicaiton controller inheritance, had to change that back.  Boo.
