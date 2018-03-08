@@ -51,12 +51,22 @@ shenanigans
 
 ## Day Two
 
-A snow day!  But no rest for the wicked, nor for the developers.
+A snow day!
 
 Discovered that I needed to be testing my resources on curl BEFORE I changed the
-Applicaiton controller inheritance, had to change that back.
+Application controller inheritance, had to change that back.
 
 Excitedly got started on my first new Resource curl script!  CREATE proved to be
 a challenge, but not for the reasons I expected.  Forgot to add commas?  WOW.
 Accidentally added a user_id parameter to my table, thus forcing me to add an
 ownership parameter well before I thought I would need to?  Whoops.
+
+Created all curl requests and ran them with success!  Adding relationships between
+the users and the resource controllers looked harder than it was.  (Or so she
+says...)
+
+Began work later in the day on the client app, building the sign-up function from
+scratch.  It was not a challenge once I realized that I had tried to run my
+development tests (which should have been locally hosted) from my production app
+on Heroku.  After that, things progressed very smoothly with building the initial
+client sign-ups and sign-ins.
