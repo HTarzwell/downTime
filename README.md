@@ -54,4 +54,9 @@ shenanigans
 A snow day!  But no rest for the wicked, nor for the developers.
 
 Discovered that I needed to be testing my resources on curl BEFORE I changed the
-Applicaiton controller inheritance, had to change that back.  Boo.
+Applicaiton controller inheritance, had to change that back.
+
+Excitedly got started on my first new Resource curl script!  CREATE proved to be
+a challenge, but not for the reasons I expected.  Forgot to add commas?  WOW.
+Accidentally added a user_id parameter to my table, thus forcing me to add an
+ownership parameter well before I thought I would need to?  Whoops.
