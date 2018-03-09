@@ -84,3 +84,7 @@ being and move along, along with the sign-out function.
 Started the exciting process of debugging my change-password and sign-in, which
 initially seemed to be an issue of user data storage, meaning the problem was most
 likely to be on the back end, which was where I decided to begin my investigation.
+
+Unfortunately my hypothesis proved to be untrue, as the issue was entirely with
+the front end after all: a format change removing the store.user.token requirement
+and my own HTML form fields.  All was resolved, but noon had already passed.
