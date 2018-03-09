@@ -61,9 +61,8 @@ a challenge, but not for the reasons I expected.  Forgot to add commas?  WOW.
 Accidentally added a user_id parameter to my table, thus forcing me to add an
 ownership parameter well before I thought I would need to?  Whoops.
 
-Created all curl requests and ran them with success!  Adding relationships between
-the users and the resource controllers looked harder than it was.  (Or so she
-says...)
+Created all curl requests and ran them with success!  I had fantastic support from
+mentors and teachers.
 
 Began work later in the day on the client app, building the sign-up function from
 scratch.  It was not a challenge once I realized that I had tried to run my
@@ -72,10 +71,16 @@ on Heroku.  After that, things progressed very smoothly with building the initia
 client sign-ups and sign-ins.
 
 The change password function was much less smooth.  I had to leave it for the time
-being and move along.
+being and move along, along with the sign-out function.
 
 ### Outstanding Issues for Day Two:
 
 -Change Password client web app function not working
+-Sign Out client web app function not working
+-Opened issue for change password & also for sign out function
 
 ## Day Three
+
+Started the exciting process of debugging my change-password and sign-in, which
+initially seemed to be an issue of user data storage, meaning the problem was most
+likely to be on the back end, which was where I decided to begin my investigation.
