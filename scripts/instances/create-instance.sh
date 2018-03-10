@@ -8,7 +8,7 @@ curl "${API}${URL_PATH}" \
   --header "Content-Type: application/json" \
   --header "Authorization: Token token=$TOKEN" \
   --data '{
-    "downtime_instance": {
+    "downtime_instances": {
       "date": "'"${DATE}"'",
       "time": "'"${TIME}"'",
       "activity": "'"${ACTIVITY}"'"

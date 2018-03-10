@@ -88,3 +88,11 @@ likely to be on the back end, which was where I decided to begin my investigatio
 Unfortunately my hypothesis proved to be untrue, as the issue was entirely with
 the front end after all: a format change removing the store.user.token requirement
 and my own HTML form fields.  All was resolved, but noon had already passed.
+
+I was able to complete all API calls in both curl and web apps for my downtime
+resources...before learning at the end of the day that we would have to render
+data to users on the front end.
+
+### Outstanding Issues for Day Three
+
+-Astonishingly, none!
