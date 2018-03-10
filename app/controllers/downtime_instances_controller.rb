@@ -1,4 +1,4 @@
-class DowntimeInstancesController < ApplicationController
+class DowntimeInstancesController < OpenReadController
   before_action :set_downtime_instance, only: [:show, :update, :destroy]
 
   # GET /downtime_instances
@@ -15,7 +15,7 @@ class DowntimeInstancesController < ApplicationController
 
   # POST /downtime_instances
   def create
-    @downtime_instance = DowntimeInstance.new(downtime_instance_params)
+    @downtime_instance = current_user.downtime_instances.build(downtime_instance_params)
 
     if @downtime_instance.save
       render json: @downtime_instance, status: :created, location: @downtime_instance
@@ -41,7 +41,7 @@ class DowntimeInstancesController < ApplicationController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_downtime_instance
-      @downtime_instance = DowntimeInstance.find(params[:id])
+      @downtime_instance = current_user.downtime_instances.find(params[:id])
     end
 
     # Only allow a trusted parameter "white list" through.

@@ -11,4 +11,10 @@ Rails.application.routes.draw do
   post '/sign-in' => 'users#signin'
   delete '/sign-out' => 'users#signout'
   patch '/change-password' => 'users#changepw'
+
+  get '/downtime_instances' => 'downtime_instances#index'
+  get '/downtime_instances/:id' => 'downtime_instances#show'
+  delete '/downtime_instances/:id' => 'downtime_instances#destroy'
+  patch '/downtime_instances/:id' => 'downtime_instances#update'
+  post '/downtime_instances' => 'downtime_instances#create'
 end
