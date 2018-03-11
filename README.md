@@ -96,3 +96,16 @@ data to users on the front end.
 ### Outstanding Issues for Day Three
 
 -Astonishingly, none!
+
+## Day Four
+
+I started late today and struggled to accomplish much; I discovered that a key
+parameter of the assignment had not been clearly explained to me, nor incorporated
+into the to-do list, so I was left on my own to try and find a way to correct the
+issue of not being able to retrieve actual data with a GET request.  Fortunately,
+the single element I chose to select rather than an entire array means that
+breaking down the problem at hand will be simpler over the next two days.
+
+### Outstanding Issues for Day Four
+
+-GET requests to API only return instance IDs, not the instance data
