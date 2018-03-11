@@ -1,7 +1,12 @@
 # downTime
 A simple SPA that tracks user's cell phone time
+[Here is a link to the front-end client](https://github.com/HTarzwell/downTime_client)
 
 # Planned Objective
+
+To build a full-stack application that allows users to record the times where
+they are away from screens, and what they were doing when they put down their
+phones, turned off their TV, or stepped away from their computers.
 
 # Technologies Used
 
@@ -11,13 +16,15 @@ Ruby
 SQL
 Rails
 Heroku
+AJAX
 
 ## Front-End:
 
 HTML5
 CSS3
 JS
-Handlebars?
+jQuery
+Handlebars
 
 # The Process
 
@@ -96,3 +103,27 @@ data to users on the front end.
 ### Outstanding Issues for Day Three
 
 -Astonishingly, none!
+
+## Day Four
+
+I started late today and struggled to accomplish much; I discovered that a key
+parameter of the assignment had not been clearly explained to me, nor incorporated
+into the to-do list, so I was left on my own to try and find a way to correct the
+issue of not being able to retrieve actual data with a GET request.  Fortunately,
+the single element I chose to select rather than an entire array means that
+breaking down the problem at hand will be simpler over the next two days.
+
+### Outstanding Issues for Day Four
+
+-GET requests to API only return instance IDs, not the instance data
+
+## Day Five
+
+I constructed new divs that allowed me to hide and show appropriate parts of
+my site to the user based on whether they were signed in or not.  A nice, neat
+single-page API!  I also corrected the issue with my individualized GET request
+by discovering that I needed to store and retrieve my data in a different place
+than how I'd been trying to do it.  I'm learning!
+
+Started to study Handlebars more thoroughly; I'm determined to use it in my
+project in some small capacity.
