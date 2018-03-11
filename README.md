@@ -3,6 +3,10 @@ A simple SPA that tracks user's cell phone time
 
 # Planned Objective
 
+To build a full-stack application that allows users to record the times where
+they are away from screens, and what they were doing when they put down their
+phones, turned off their TV, or stepped away from their computers.
+
 # Technologies Used
 
 ## Back-End:
@@ -11,13 +15,15 @@ Ruby
 SQL
 Rails
 Heroku
+AJAX
 
 ## Front-End:
 
 HTML5
 CSS3
 JS
-Handlebars?
+jQuery
+Handlebars
 
 # The Process
 
@@ -109,3 +115,14 @@ breaking down the problem at hand will be simpler over the next two days.
 ### Outstanding Issues for Day Four
 
 -GET requests to API only return instance IDs, not the instance data
+
+## Day Five
+
+I constructed new divs that allowed me to hide and show appropriate parts of
+my site to the user based on whether they were signed in or not.  A nice, neat
+single-page API!  I also corrected the issue with my individualized GET request
+by discovering that I needed to store and retrieve my data in a different place
+than how I'd been trying to do it.  I'm learning!
+
+Started to study Handlebars more thoroughly; I'm determined to use it in my
+project in some small capacity.
