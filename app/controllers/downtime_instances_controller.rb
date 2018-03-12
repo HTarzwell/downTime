@@ -3,7 +3,7 @@ class DowntimeInstancesController < OpenReadController
 
   # GET /downtime_instances
   def index
-    @downtime_instances = DowntimeInstance.all
+    @downtime_instances = current_user.downtime_instances.all
 
     render json: @downtime_instances
   end
@@ -17,7 +17,7 @@ class DowntimeInstancesController < OpenReadController
   def create
     @downtime_instance = current_user.downtime_instances.build(downtime_instance_params)
 
-    if @downtime_instance.save
+    if @downtime_instance.save && !downtime_instance_params.blank?
       render json: @downtime_instance, status: :created, location: @downtime_instance
     else
       render json: @downtime_instance.errors, status: :unprocessable_entity
@@ -26,7 +26,7 @@ class DowntimeInstancesController < OpenReadController
 
   # PATCH/PUT /downtime_instances/1
   def update
-    if @downtime_instance.update(downtime_instance_params)
+    if @downtime_instance.update(downtime_instance_params) && !downtime_instance_params.blank?
       render json: @downtime_instance
     else
       render json: @downtime_instance.errors, status: :unprocessable_entity
