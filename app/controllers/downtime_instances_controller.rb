@@ -3,7 +3,7 @@ class DowntimeInstancesController < OpenReadController
 
   # GET /downtime_instances
   def index
-    @downtime_instances = DowntimeInstance.all
+    @downtime_instances = current_user.downtime_instances.all
 
     render json: @downtime_instances
   end
