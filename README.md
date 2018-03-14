@@ -25,6 +25,8 @@ CSS3
 JS
 jQuery
 Handlebars
+SASS
+Bootstrap
 
 # The Process
 
@@ -126,4 +128,28 @@ by discovering that I needed to store and retrieve my data in a different place
 than how I'd been trying to do it.  I'm learning!
 
 Started to study Handlebars more thoroughly; I'm determined to use it in my
-project in some small capacity.
+project in some small capacity.  I wound up having a really good time, finding
+ways to learn how to do this with Keiko's help!
+
+## Day Six
+
+DEPLOYMENT DAY.  It was...rough.  I fixed some bugs, and became Patient Zero for
+some truly fascinating GitHub deployment shenanigans.  I managed to fix the
+problems with Heroku on my own, astoundingly!
+
+## Day...Seven??
+
+A SNOW DAY granted us an extra day to work; I spent it making the app as pretty
+as I could and attempting to reconcile myself with Bootstrap.  Deployed, got lots
+of wonderful suggestions, fixed as many user-facing bugs as I humanly could,
+and finally deployed again.  Working app works relatively well!!
+
+# Outstanding Issues to be Fixed Next Time Around
+
+1. User time clock and time entry column will take data in a reasonable fashion,
+but I'm very unhappy with it and I would MUCH prefer to have a nice, neat thing
+for time entry (and I don't like making them enter a date range twice!), so for
+future iterations I would like to add a couple of other lovely parameters.
+2. Downtime activities table!!
+3. User interface is currently clunky, ugly, and distinctly un-intuitive.  Would
+like to make it prettier!
