@@ -12,6 +12,7 @@ curl "${API}${URL_PATH}" \
       "date": "'"${DATE}"'",
       "time": "'"${TIME}"'",
       "activity": "'"${ACTIVITY}"'"
+      "duration": "'"${DURATION}"'"
     }
   }'
 

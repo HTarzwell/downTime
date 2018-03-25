@@ -46,6 +46,6 @@ class DowntimeInstancesController < OpenReadController
 
     # Only allow a trusted parameter "white list" through.
     def downtime_instance_params
-      params.require(:downtime_instance).permit(:user_id, :date, :time, :activity)
+      params.require(:downtime_instance).permit(:user_id, :date, :time, :activity, :duration)
     end
 end
