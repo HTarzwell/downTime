@@ -11,7 +11,7 @@ curl "${API}${URL_PATH}" \
     "downtime_instances": {
       "date": "'"${DATE}"'",
       "time": "'"${TIME}"'",
-      "activity": "'"${ACTIVITY}"'"
+      "activity": "'"${ACTIVITY}"'",
       "duration": "'"${DURATION}"'"
     }
   }'
