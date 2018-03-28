@@ -18,7 +18,7 @@ class DowntimeInstancesController < OpenReadController
     @downtime_instance = current_user.downtime_instances.build(downtime_instance_params)
 
     if @downtime_instance.save && !downtime_instance_params.blank?
-      render json: @downtime_instance, status: :created, location: @downtime_instance
+      render json: @downtime_instance, status: :created
     else
       render json: @downtime_instance.errors, status: :unprocessable_entity
     end
